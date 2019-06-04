@@ -1,0 +1,175 @@
+
+
+body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden !important;
+}
+
+#related-items{
+  z-index: -1;
+}
+
+#app{
+  width: 100vw;
+}
+
+.slider {
+  text-align: center;
+  display: inline-block;
+  width: 90vw;
+  margin: 1rem;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.item-box {
+  width: 265.5px;
+  margin: 25px 0;
+  padding: 10px 2px;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.item-box, img {
+  text-align: center;
+  width: 13vw;
+  margin: 0, 5px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+.item-box .item-info {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+  margin: 10px auto 0 auto;
+  font-size: 8px;
+  font-weight: 100;
+  line-height: 8.5px;
+  
+
+}
+.item-box .item-info .item-details {
+  height: 6.5vh;
+  overflow: hidden;
+
+}
+.item-box .item-info .item-price {
+  height: 19px;
+  margin: 4px 0 0 0;
+  font-weight: 600;
+}
+.item-box .item-info .add-to-bag {
+  height: 3vh;
+  background-color: black;
+  background-attachment: scroll;
+  color: white;
+  text-align: center;
+}
+
+.item-box .item-info .add-to-bag .text{
+
+  font-weight: 800;
+  font-size: 8px;
+  line-height: initial;
+  margin-top: 1px;
+}
+
+.item-box .item-info .add-to-bag select {
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  appearance: none;
+  top: -25px;
+  align-items: center;
+  background-attachment: scroll;
+  cursor: pointer;
+  height: 30px;
+  max-width: 100%;
+  min-width: 1px;
+  opacity: 0;
+  outline-offset: -2px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  position: relative;
+  vertical-align: middle;
+  white-space: pre;
+  width: 188px;
+  z-index: 99;
+  -webkit-font-smoothing: antialiased;
+}
+.slick-arrow {
+  width: 2vw;
+  height: 4.5vh;
+
+}
+.ui.basic.segment{
+  display: flex;
+  flex-direction: column;
+}
+
+.ui.sidebar{
+  overflow: visible;
+}
+
+.ui.buttons {
+  padding-top: 2vh;
+}
+
+
+#productDisplay{
+  z-index: 1;
+  width: 100%;
+  height: none !important;
+}
+
+.ui.white.vertical.labeled.icon.ui.overlay.right.visible.sidebar.sidebar.menu{
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.ui.grid{
+  margin: 1rem;
+}
+
+.checked {
+  color: orange;
+}
+
+.reviewer-name{
+  font-family: 'Oswald', sans-serif;
+}
+
+.review-title{
+  font-family: 'Oswald', sans-serif;
+}
+
+.review{
+  font-family: 'Oswald', sans-serif;
+}
+.review-list {
+  display: initial;
+  width: 100%;
+}
+
+#overlay {
+  visibility: hidden;
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: rgba(0,0,0, 0.87);
+  opacity: -1;
+  z-index:2;
+}
+
+

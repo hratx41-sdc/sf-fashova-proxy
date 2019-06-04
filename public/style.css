@@ -1,0 +1,249 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#productDisplay {
+  margin-bottom: -8vh
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.item-box .item-info .item-details {
+  height: 8vh;
+  overflow: hidden;
+}
+
+#related-items {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  margin-top: 10vh;
+  z-index: 0;
+}
+
+.mainComponentWrapper{
+  height: 75vh;
+}
+
+.slider {
+  text-align: center;
+  display: inline-block;
+  width: 90%;
+  height: 500px;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.slider h2 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 13px 0;
+}
+.item-box {
+  width: 265.5px;
+  margin: 25px 0;
+  padding: 10px 2px;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.item-box, img {
+  text-align: center;
+  width: 13vw;
+  margin: 0, 5px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+.item-box .item-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px auto 0 auto;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 19.5px;
+}
+
+.item-box .item-info .item-price {
+  height: 19px;
+  margin: 6px 0 0 0;
+}
+.item-box .item-info .add-to-bag {
+  height: 3.3vh;
+  background-color: black;
+  background-attachment: scroll;
+  color: white;
+  text-align: center;
+  margin: 0 18.5px;
+}
+.item-box .item-info .add-to-bag .text{
+  display: inline-block;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  margin: 6px 0 0 0;
+  height: 19px;
+}
+.item-box .item-info .add-to-bag select {
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  appearance: none;
+  top: -25px;
+  align-items: center;
+  background-attachment: scroll;
+  cursor: pointer;
+  height: 30px;
+  max-width: 100%;
+  min-width: 1px;
+  opacity: 0;
+  outline-offset: -2px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  position: relative;
+  vertical-align: middle;
+  white-space: pre;
+  width: 188px;
+  z-index: 99;
+  -webkit-font-smoothing: antialiased;
+}
+.slick-arrow {
+  width: 2vw;
+  height: 4.5vh;
+}
+
+#add-to-bag.sc-EHOje.SkSPV{
+  float: right;
+}
+
+.ui.segment{
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-radius: none !important;
+  border: none !important;
+}
+
+
+.ui.white.vertical.labeled.icon.ui.overlay.right.visible.sidebar.sidebar.menu{
+  z-index: 500;
+  width: 100% !important;
+}
+.proxy-body{
+  height: initial;
+  margin: initial;
+  padding: initial;
+  overflow-x: hidden;
+  min-width: initial;
+  background: initial;
+  font-family: initial;
+  font-size: initial;
+  line-height: initial;
+  color: initial;
+}
+
+/* 
+.ui.grid{
+  margin: 1rem;
+} */
+
+
+.checked {
+  color: orange;
+}
+
+.reviewer-name{
+  font-family: 'Oswald', sans-serif;
+}
+
+.review-title{
+  font-family: 'Oswald', sans-serif;
+}
+
+.review{
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+.productInformation{
+  z-index: initial;
+
+}
+
+.review-list {
+  max-width: 100vw;
+}
+
+.jss60 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.jss42 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.jss39 {
+  min-height: 1px !important;
+}
+
+.othersTab {
+  border: 1px solid rgba(173, 173, 173, 0.37) !important;
+  padding-top: 15px;
+}
+
+#womensTab {
+  padding-top: 15px;
+}
+
+#overlay {
+  visibility: hidden;
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: rgba(0,0,0,.4);
+  opacity: -1;
+  z-index:2;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  will-change: opacity;
+}
+
+.magnifyingGlass {
+  box-sizing: unset;
+};
+
+.sizes{
+  margin: 0 !important;
+  margin-bottom: 1rem !important;
+  width: 22vw !important;
+}
+
+.quantity{
+  width: 5vw !important;
+}
+
+.fullscreenGallery{
+  z-index: 7;
+}
+
+.ui.grid>.row>[class*="seven wide"].column{
+  width: 100% !important;
+  margin: 0 !important;
+  text-indent: 2vw;
+}
